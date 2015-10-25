@@ -1,0 +1,18 @@
+.panel-title{
+	font-size: 18px;
+	font-style: italic;
+	height: 40px;
+}
+.panel-title{
+	display:inline-block;
+    vertical-align:middle;
+}
+
+.panel-body{
+	font-size: 16px;
+}
+
+.panel-footer{
+	font-size: 12px;
+	text-align: right;
+}
