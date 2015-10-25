@@ -1,0 +1,48 @@
+#registration_form{
+	width			: 58%;
+	margin-left		: 21%;
+	margin-bottom	: 1%;
+	border			: 2px solid red;
+	text-align		: center;
+	
+}
+
+#tableform{
+	border			: 2px solid blue;
+	margin			: auto;
+	margin-bottom	: 2%;
+	padding			: 1em;	
+	
+}
+
+td {
+	text-align	: left;
+	color		: blue;
+}
+
+#submit_button{
+	padding-top	: 4%;
+	text-align	: center;
+}
+
+span {
+	color	: red;
+}
+
+input:focus {
+  background	: #eaeaea;
+}
+
+input:required {
+	background : black;
+}
+
+#submit_button{
+	padding-top: 4%;
+}
+
+span {
+	font-weight	: bold;
+	font-style	: normal;
+	color		: #f00;
+}

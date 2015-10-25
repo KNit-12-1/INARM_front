@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <!--[if lte IE 8]>
+    <!-- Patch to make semantic elements work in IE8 and below. -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <link rel="stylesheet" href="stylesheets/style.css"> 
+    <title>INARM</title>
+  </head>
+
+  <body>
+      <header id="page_header"> 
+        <h1>Название сайта, логотип.</h1>
+      </header>
+	  
+	<div id="wrapper">  
+	  <section id="left_section">
+		<nav > 
+          <ul id="navbar">
+            <li><a href="#">Пункт1</a></li>
+            <li><a href="#">Пункт2</a></li>
+            <li><a href="#">Пункт3</a></li>
+            <li><a href="#">Пункт4</a></li>
+          </ul>
+        </nav>
+		
+		<article id="inquirer">
+			<p>
+              Опросник (появляется, как только пользователь 
+			  авторизуется под своей учетной записью)
+            </p>
+		</article>
+	  </section>
+	  
+	 
+	  
+	  <section id="right_section">
+		<article id="registration_article">
+			<form action="/action/1" method="get" name="registration_form">
+				<table>
+					<tr>
+						<td><label for="login" id="label">Логин</label></td>
+						<td><input type="text" name="login" id="login" value="12"></td>
+					</tr>
+					<tr>
+						<td><label for="pass" id="label">Пароль</label></td>
+						<td><input type="password" name="pass" id="pass"></td>
+					</tr>
+					<tr>
+						<td><button type="submit">Ввойти</button></td>
+						<td><a href="/registration.html">Регистрация</a></td>
+					</tr>
+				</table>
+			
+			<!--
+				<ul>
+					<li>
+						<label for="login">Логин</label>
+						<input type="text" name="login" id="login" value="12">
+						<span></span>
+					</li>
+					<li>
+						<label for="pass">Пароль</label>
+						<input type="password" name="pass" id="pass">
+						<span></span>
+					</li>
+					<button type="submit">Ввойти</button>
+					<button type="submit">Регистрация</button>
+				</ul>-->
+			</form>
+			<p>
+				(После авторизации появляется информация о профиле, возможность ее редактирования).
+			</p>
+		</article>
+		
+		<article id="search_article">
+			<form name="search" action="#" method="get">
+				<label for="search">Поиск по сайту</label>
+				<input type="search" name="search" id="search" placeholder="Search">
+				<button type="submit">GO</button>
+			</form>
+		</article>
+		
+		<article id="info">
+			<p>
+				Информационная лента, результаты опросов
+			</p>
+		</article>
+	  </section>
+	  
+	   <section id="center_section">
+		<article class="news">
+			<header>
+				<h2>Презентационно-информационная часть.</h2>
+			</header>
+
+				<p>
+					1.	Материалы посвященные 
+					компетентностному подходу, принятым национальным решениям, 
+					позволяющие ознакомиться с национальными, секторальными квалификационными 
+					рамками, хранящимися в общей базе данных. Предполагается, что данная часть 
+					также будет индивидуально подстраиваться к пользователю, в зависимости 
+					от его территориальной принадлежности, к какой группе пользователей 
+					он принадлежит и т.д
+				</p>
+			<footer>
+				<p>Опубликовано 
+					<time datetime="2013-05-01T14:39">Мая 1st, 2013 at 2:39PM</time>
+				</p>
+			</footer>
+			</p>
+		</article>
+	  </section>
+	  
+	</div>
+	  <footer id="page_footer">
+        <p>Copyright © 2015 KNit-12.</p>
+        <nav>
+          <ul>   
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </footer>
+  </body>
+</html>
+

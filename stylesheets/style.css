@@ -1,0 +1,150 @@
+
+body{
+	margin				: 2.5em;
+	min-width			: 750px;
+    background-color	: #f8f8f8;
+    border-top			: 5px solid #7e7e7e;
+	background			: repeating-radial-gradient(2px 2px, ellipse,
+						hsla(0,0%,100%,1) 8px, hsla(0,0%,95%,1) 10px,
+						hsla(0,0%,93%,1) 15px, hsla(0,0%,100%,1) 20px);
+}
+
+#wrapper{
+	margin-bottom	: 10%;
+}
+
+section{
+	border			: 1px solid black; 
+	
+}
+
+#page_header{ 
+	width			: 100%; 
+	text-align		: center;
+	border			: 4px double red; 
+	margin-bottom	: 1%;
+}
+
+#left_section {
+	width	: 20%;
+	float	: left;
+}
+
+/*NAVIGATION_BEGIN*/
+#navbar {
+	margin: 2%;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navbar li {
+        border-left: 10px solid #555;
+        border-bottom: 1px solid #555;
+}
+
+#navbar a {
+        background-color: #949494;
+        color: #fff;
+        padding: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        border-left: 5px solid #33ADFF;
+        display: block;
+}
+      
+#navbar a:hover {
+        background-color: #555;
+        border-left: 5px solid #3333FF;
+}
+/*NAVIGATION_END*/
+
+
+#inquirer {
+	border	: 0.1em solid blue;
+	padding	: 3%;
+	margin	: 4%;
+}
+
+
+#center_section {
+	width		: 58%;
+	margin-left	: 21%;
+	margin-right: 21%;
+}
+
+.news{
+	margin	: 2%;
+	padding	: 2%;
+	border	: 0.1em solid orange;
+}
+
+.news>header{
+	text-align	: center;
+}
+
+.news>footer{
+	text-align	: right;
+	font-size	: 80%;
+	font-style	: oblique;
+}
+
+#right_section {
+	width		: 20%;
+	float		: right;
+	margin-right: -0.5%;
+}
+
+#registration_article{
+	border		: 0.1em solid brown;
+	margin		: auto;
+}
+
+#registration_article  > form > ul{
+	margin			: 2%;
+    padding			: 0;
+    list-style-type	: none;
+}
+
+#registration_article  >  form > ul > li{
+	text-align		: left;
+	margin-bottom	: 0.5em;
+}
+
+#registration_article  > form > ul > button{
+
+}
+
+
+
+.label{
+	text-align: left;
+}
+
+#right_section >article {
+	border	: 0.1em solid blue;
+	padding	: 3%;
+	margin	: 4%;
+}
+
+input[type=text], input[type=password]{
+   width 	: 97%;
+}
+
+input[type=search]{
+   width		: 80%;
+   background	: white-blue; 
+   border		: 1px solid black; 
+   border-radius: 15px;
+}
+
+#page_footer{
+	clear		: both;
+	text-align	: center;
+	width		: 100%; 
+	border		: 4px double green;
+}
+
+#page_footer  nav  >  ul  >  li{ 
+	display		: inline;
+	list-style	: none;
+}
