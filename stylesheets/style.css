@@ -25,14 +25,6 @@ section{
 	margin-bottom	: 1%;
 }
 
-#left_section {
-	width	: 20%;
-	float	: left;
-}
-
-
-
-
 #inquirer {
 	border	: 0.1em solid blue;
 	padding	: 3%;
@@ -41,8 +33,8 @@ section{
 
 
 #center_section {
-	width		: 58%;
-	margin-left	: 21%;
+	margin-left: 1%;
+	width		: 78%;
 	margin-right: 21%;
 }
 
